@@ -1,0 +1,103 @@
+{
+    "basic_info": {
+      "name": "Ian Agpawa",
+      "titles": [ "Senior Software Engineer", "Front-End Developer"],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/ianagpawa",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/ianagpawa/",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "Gaming",
+          "url": "https://www.youtube.com/@GameCodeRepeat/featured",
+          "class": "fas fa-gamepad"
+        },
+        {
+          "name": "Music",
+          "url": "https://www.youtube.com/watch?v=I-OHxsl7N5w&list=PLMwQ3sxJXApjmF1mAlhk69vAmoDnuESod",
+          "class": "fas fa-music"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/ianagpawa",
+          "class": "fab fa-twitter"
+        },
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/playlist/11IQR7IYabBCazbWkK3gVr",
+          "class": "fab fa-spotify"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original",
+          "level": "70"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "80"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "90"
+        },
+        {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "90"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "80"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "90"
+        },
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "65"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "60"
+        },
+        {
+          "name": "Webpack",
+          "class": "devicon-webpack-plain",
+          "level": "70"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "50"
+        }
+      ]
+    }
+  }
