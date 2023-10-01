@@ -11,7 +11,7 @@ body[data-theme="dark"] {
    }
 
    .header-icon {
-      color: #3C342C;
+      // color: #3C342C;
       opacity: 0.8;
    }
 
@@ -36,6 +36,14 @@ body[data-theme="dark"] {
       background-color: #494949;
       h1 {
          color: white;
+      }
+
+      a,
+      a:visited,
+      a:hover,
+      a:focus  {
+         color: #212529;
+         opacity: 0.8;
       }
    }
 

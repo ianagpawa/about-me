@@ -20,12 +20,13 @@ class App extends Component {
   }
 
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
+    // this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
-    var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+    // var resumePath =
+    //   document.documentElement.lang === window.$primaryLanguage
+    //     ? `res_primaryLanguage.json`
+    //     : `res_secondaryLanguage.json`;
+    var resumePath = `res_primaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
 
@@ -82,8 +83,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
+        <Header 
+          sharedData={this.state.sharedData.basic_info} 
+          sharedBasicInfo={this.state.sharedData.basic_info}
+        />
+        {/* <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
               this.applyPickedLanguage(
@@ -116,7 +120,7 @@ class App extends Component {
               id={window.$secondaryLanguageIconId}
             ></span>
           </div>
-        </div>
+        </div> */}
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}

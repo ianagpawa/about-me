@@ -1,68 +1,117 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hello World",
+      "description": "👋 I'm Ian Agpawa, a software engineer currently in finance.  I work on frontend Angular and React applications on a platform that focuses on a unified experience for various post-trade event workflows.",
       "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
+        "about": "A little about me",
+        "projects": "Selected Personal Projects",
+        "skills": "Technical Skills",
+        "experience": "Relevant Work Experience"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Shared Document Editor",
+        "startDate": "2023",
+        "description": "A document editor that allows multiple users to view and update the same document in real time.  This demonstrates the features of websockets, and utilizes a React client with Node server.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/shareddocs/shared-overhead.jpg",
+          "images/portfolio/shareddocs/shared-iso.jpg",
+          "images/portfolio/shareddocs/shared.jpg"
         ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
+        "url": "https://github.com/ianagpawa/shared-doc",
         "technologies": [
           {
             "class": "devicon-react-original",
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-nodejs-plain",
+            "name": "Node"
+          },
+          {
+            "class": "devicon-docker-plain-wordmark",
+            "name": "Docker"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "CheckIt Blog",
+        "startDate": "2022",
+        "description": "A simple personal blog built with Ruby and Jekyll.  This blog focuses on entertainment, namely movies, shows, and music that I come across.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/checkit/blogging.jpg",
+          "images/portfolio/checkit/blog-books.jpg",
+          "images/portfolio/checkit/blog.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://ianagpawa.github.io/check-it/",
+        "technologies": [
+          {
+            "class": "devicon-ruby-plain",
+            "name": "Ruby"
+          },
+          {
+            "class": "devicon-github-original-wordmark",
+            "name": "Github"
+          }
+        ]
+      },
+      {
+        "title": "Newsfeed",
+        "startDate": "2020",
+        "description": "An Angular news site using the NYTimes API and utilizing PrimeNg components.",
+        "images": [
+          "images/portfolio/newsfeed/news.jpg",
+          "images/portfolio/newsfeed/paper.jpg",
+          "images/portfolio/newsfeed/paper-table.jpg"
+        ],
+        "url": "https://ianagpawa.github.io/newsfeed/",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-github-original-wordmark",
+            "name": "Github"
+          }
+        ]
+      },
+      {
+        "title": "Random Quotes RESTFUL API",
+        "startDate": "2020",
+        "description": "Random Quote Generator utilizing Java Sprintboot RESTFUL API.",
+        "images": [
+          "images/portfolio/random/quote-abstract.jpg",
+          "images/portfolio/random/quote-fish.jpg",
+          "images/portfolio/random/quote-what-if.jpg"
+        ],
+        "url": "https://github.com/ianagpawa/random-quotes-api",
+        "technologies": [
+          {
+            "class": "devicon-java-plain-wordmark",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-spring-plain-wordmark",
+            "name": "Spring"
+          },
+          {
+            "class": "devicon-gradle-plain",
+            "name": "Gradle"
+          }
+        ]
+      },
+      {
+        "title": "Weather Forecast",
+        "startDate": "2022",
+        "description": "A five day weather forecast React app using the OpenWeatherAPI.",
+        "images": [
+          "images/portfolio/weather/raining.jpg",
+          "images/portfolio/weather/dark.jpg",
+          "images/portfolio/weather/rain.jpg"
+        ],
+        "url": "https://ianagpawa.github.io/weather/",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
@@ -73,45 +122,98 @@
             "name": "TypeScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-github-original-wordmark",
+            "name": "Github"
+          }
+        ]
+      },
+      {
+        "title": "Tech Blog",
+        "startDate": "2020",
+        "description": "Tech blog using Gatsby and Netlify CMS for content editing.",
+        "images": [
+          "images/portfolio/tech/black-white.jpg",
+          "images/portfolio/tech/worth-reading.jpg",
+          "images/portfolio/tech/pc.jpg"
+        ],
+        "url": "https://xenodochial-edison-d8fc22.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Osttra",
+        "title": "Senior Software Engineer",
+        "years": "09.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Angular",
+          "React",
+          "AngularJS"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Javascript",
+          "Typescript",
+          "RxJs",
+          "Cypress",
+          "Karma",
+          "Redux",
+          "Ag Grid",
+          "PrimeNG",
+          "Formly",
+          "Apache",
+          "Webpack"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "IHS Markit",
+        "title": "Software Engineer",
+        "years": "04.2018 - 09.2021",
         "mainTech": [
-          "Angular 7/8"
+          "Angular",
+          "React",
+          "AngularJS"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Javascript",
+          "Typescript",
+          "RxJs",
+          "Cypress",
+          "Karma",
+          "Redux",
+          "Ag Grid",
+          "PrimeNG",
+          "Formly",
+          "Apache"
+        ]
+      },
+      {
+        "company": "FDM Group",
+        "title": "IT Consultant",
+        "years": "01.2018 - 05.2021",
+        "mainTech": [
+          "Angular"
+        ],
+        "technologies": [
+          "Javascript",
+          "RxJs",
+          "Typescript",
+          "Ag Grid",
+          "PrimeNG",
+          "Formly",
+          "React",
+          "Redux",
+          "Java",
+          "Python",
+          "Apache"
         ]
       }
     ]
