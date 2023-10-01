@@ -1,0 +1,220 @@
+{
+    "basic_info": {
+      "description_header": "Hello World",
+      "description": "👋 I'm Ian Agpawa, a software engineer currently in finance.  I work on frontend Angular and React applications on a platform that focuses on a unified experience for various post-trade event workflows.",
+      "section_name": {
+        "about": "A little about me",
+        "projects": "Selected Personal Projects",
+        "skills": "Technical Skills",
+        "experience": "Relevant Work Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Shared Document Editor",
+        "startDate": "2023",
+        "description": "A document editor that allows multiple users to view and update the same document in real time.  This demonstrates the features of websockets, and utilizes a React client with Node server.",
+        "images": [
+          "images/portfolio/shareddocs/shared-overhead.jpg",
+          "images/portfolio/shareddocs/shared-iso.jpg",
+          "images/portfolio/shareddocs/shared.jpg"
+        ],
+        "url": "https://github.com/ianagpawa/shared-doc",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node"
+          },
+          {
+            "class": "devicon-docker-plain-wordmark",
+            "name": "Docker"
+          }
+        ]
+      },
+      {
+        "title": "CheckIt Blog",
+        "startDate": "2022",
+        "description": "A simple personal blog built with Ruby and Jekyll.  This blog focuses on entertainment, namely movies, shows, and music that I come across.",
+        "images": [
+          "images/portfolio/checkit/blogging.jpg",
+          "images/portfolio/checkit/blog-books.jpg",
+          "images/portfolio/checkit/blog.jpg"
+        ],
+        "url": "https://ianagpawa.github.io/check-it/",
+        "technologies": [
+          {
+            "class": "devicon-ruby-plain",
+            "name": "Ruby"
+          },
+          {
+            "class": "devicon-github-original-wordmark",
+            "name": "Github"
+          }
+        ]
+      },
+      {
+        "title": "Newsfeed",
+        "startDate": "2020",
+        "description": "An Angular news site using the NYTimes API and utilizing PrimeNg components.",
+        "images": [
+          "images/portfolio/newsfeed/news.jpg",
+          "images/portfolio/newsfeed/paper.jpg",
+          "images/portfolio/newsfeed/paper-table.jpg"
+        ],
+        "url": "https://ianagpawa.github.io/newsfeed/",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-github-original-wordmark",
+            "name": "Github"
+          }
+        ]
+      },
+      {
+        "title": "Random Quotes RESTFUL API",
+        "startDate": "2020",
+        "description": "Random Quote Generator utilizing Java Sprintboot RESTFUL API.",
+        "images": [
+          "images/portfolio/random/quote-abstract.jpg",
+          "images/portfolio/random/quote-fish.jpg",
+          "images/portfolio/random/quote-what-if.jpg"
+        ],
+        "url": "https://github.com/ianagpawa/random-quotes-api",
+        "technologies": [
+          {
+            "class": "devicon-java-plain-wordmark",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-spring-plain-wordmark",
+            "name": "Spring"
+          },
+          {
+            "class": "devicon-gradle-plain",
+            "name": "Gradle"
+          }
+        ]
+      },
+      {
+        "title": "Weather Forecast",
+        "startDate": "2022",
+        "description": "A five day weather forecast React app using the OpenWeatherAPI.",
+        "images": [
+          "images/portfolio/weather/raining.jpg",
+          "images/portfolio/weather/dark.jpg",
+          "images/portfolio/weather/rain.jpg"
+        ],
+        "url": "https://ianagpawa.github.io/weather/",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-github-original-wordmark",
+            "name": "Github"
+          }
+        ]
+      },
+      {
+        "title": "Tech Blog",
+        "startDate": "2020",
+        "description": "Tech blog using Gatsby and Netlify CMS for content editing.",
+        "images": [
+          "images/portfolio/tech/black-white.jpg",
+          "images/portfolio/tech/worth-reading.jpg",
+          "images/portfolio/tech/pc.jpg"
+        ],
+        "url": "https://xenodochial-edison-d8fc22.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Osttra",
+        "title": "Senior Software Engineer",
+        "years": "09.2021 - present",
+        "mainTech": [
+          "Angular",
+          "React",
+          "AngularJS"
+        ],
+        "technologies": [
+          "Javascript",
+          "Typescript",
+          "RxJs",
+          "Cypress",
+          "Karma",
+          "Redux",
+          "Ag Grid",
+          "PrimeNG",
+          "Formly",
+          "Apache",
+          "Webpack"
+        ]
+      },
+      {
+        "company": "IHS Markit",
+        "title": "Software Engineer",
+        "years": "04.2018 - 09.2021",
+        "mainTech": [
+          "Angular",
+          "React",
+          "AngularJS"
+        ],
+        "technologies": [
+          "Javascript",
+          "Typescript",
+          "RxJs",
+          "Cypress",
+          "Karma",
+          "Redux",
+          "Ag Grid",
+          "PrimeNG",
+          "Formly",
+          "Apache"
+        ]
+      },
+      {
+        "company": "FDM Group",
+        "title": "IT Consultant",
+        "years": "01.2018 - 05.2021",
+        "mainTech": [
+          "Angular"
+        ],
+        "technologies": [
+          "Javascript",
+          "RxJs",
+          "Typescript",
+          "Ag Grid",
+          "PrimeNG",
+          "Formly",
+          "React",
+          "Redux",
+          "Java",
+          "Python",
+          "Apache"
+        ]
+      }
+    ]
+  }
