@@ -11,7 +11,7 @@
     },
     "projects": [
         {
-            "title": "Multiframework Module Federation",
+            "title": "Module Federation",
             "startDate": "2025",
             "description": "A showcase of module federation utilization a React host with React and Angular remotes.",
             "images": [
