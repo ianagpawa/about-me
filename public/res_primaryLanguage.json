@@ -10,7 +10,32 @@
       }
     },
     "projects": [
-      {
+        {
+            "title": "Multiframework Module Federation",
+            "startDate": "2025",
+            "description": "A showcase of module federation utilization a React host with React and Angular remotes.",
+            "images": [
+              "images/portfolio/tech/black-white.jpg",
+              "images/portfolio/tech/worth-reading.jpg",
+              "images/portfolio/tech/pc.jpg"
+            ],
+            "url": "https://github.com/ianagpawa/multi-framework-module-federation",
+            "technologies": [
+              {
+                "class": "devicon-angularjs-plain",
+                "name": "Angular"
+              },
+              {
+                "class": "devicon-react-original",
+                "name": "React"
+              },
+              {
+                "class": "devicon-webpack-plain",
+                "name": "Webpack"
+              }
+            ]
+        },
+        {
         "title": "Shared Document Editor",
         "startDate": "2023",
         "description": "A document editor that allows multiple users to view and update the same document in real time.  This demonstrates the features of websockets, and utilizes a React client with Node server.",
@@ -32,27 +57,6 @@
           {
             "class": "devicon-docker-plain-wordmark",
             "name": "Docker"
-          }
-        ]
-      },
-      {
-        "title": "CheckIt Blog",
-        "startDate": "2022",
-        "description": "A simple personal blog built with Ruby and Jekyll.  This blog focuses on entertainment, namely movies, shows, and music that I come across.",
-        "images": [
-          "images/portfolio/checkit/blogging.jpg",
-          "images/portfolio/checkit/blog-books.jpg",
-          "images/portfolio/checkit/blog.jpg"
-        ],
-        "url": "https://ianagpawa.github.io/check-it/",
-        "technologies": [
-          {
-            "class": "devicon-ruby-plain",
-            "name": "Ruby"
-          },
-          {
-            "class": "devicon-github-original-wordmark",
-            "name": "Github"
           }
         ]
       },
@@ -128,23 +132,23 @@
         ]
       },
       {
-        "title": "Tech Blog",
-        "startDate": "2020",
-        "description": "Tech blog using Gatsby and Netlify CMS for content editing.",
+        "title": "CheckIt Blog",
+        "startDate": "2022",
+        "description": "A simple personal blog built with Ruby and Jekyll.  This blog focuses on entertainment, namely movies, shows, and music that I come across.",
         "images": [
-          "images/portfolio/tech/black-white.jpg",
-          "images/portfolio/tech/worth-reading.jpg",
-          "images/portfolio/tech/pc.jpg"
+          "images/portfolio/checkit/blogging.jpg",
+          "images/portfolio/checkit/blog-books.jpg",
+          "images/portfolio/checkit/blog.jpg"
         ],
-        "url": "https://xenodochial-edison-d8fc22.netlify.app/",
+        "url": "https://ianagpawa.github.io/check-it/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-ruby-plain",
+            "name": "Ruby"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-github-original-wordmark",
+            "name": "Github"
           }
         ]
       }
