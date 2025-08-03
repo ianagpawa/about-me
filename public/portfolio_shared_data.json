@@ -4,6 +4,11 @@
       "titles": [ "Senior Software Engineer", "Front-End Developer", "PC Building Enthusiast", "Gaming Hobbyist", "Music Lover and Amateur Audiophile", "Burgeoning Sneakerhead"],
       "social": [
         {
+          "name": "Music",
+          "url": "https://www.youtube.com/watch?v=I-OHxsl7N5w&list=PLMwQ3sxJXApjmF1mAlhk69vAmoDnuESod",
+          "class": "fas fa-music"
+        },
+        {
           "name": "github",
           "url": "https://github.com/ianagpawa",
           "class": "fab fa-github"
@@ -14,29 +19,9 @@
           "class": "fab fa-linkedin"
         },
         {
-          "name": "Gaming",
-          "url": "https://www.youtube.com/@GameCodeRepeat/featured",
-          "class": "fas fa-gamepad"
-        },
-        {
-          "name": "Music",
-          "url": "https://www.youtube.com/watch?v=I-OHxsl7N5w&list=PLMwQ3sxJXApjmF1mAlhk69vAmoDnuESod",
-          "class": "fas fa-music"
-        },
-        {
-          "name": "Blog",
-          "url": "https://ianagpawa.github.io/check-it/",
-          "class": "fas fa-jedi"
-        },
-        {
           "name": "Spotify",
           "url": "https://open.spotify.com/playlist/11IQR7IYabBCazbWkK3gVr",
           "class": "fab fa-spotify"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/ianagpawa",
-          "class": "fab fa-twitter"
         }
       ],
       "image": "profile.jpg"
