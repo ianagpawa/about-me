@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hello World",
-      "description": "👋 I'm Ian Agpawa, a software engineer currently in finance.  I design and develop frontend Angular and React web applications on a platform that focuses on a unified experience for various post-trade event workflows.  Prior to software engineering, I was in the field of psychology.  I received my Bachelors from CUNY Hunter College where I co-authored a study in error-detection rates during proofreading. I then went on to receive my Masters from Teachers College at Columbia University where I focused on developmental psychopathology and posttraumatic growth, while working at a clinical services company that provided services to intellectually disabled individuals throughout the New York City area. I left the field in 2018 to pursue my passion and joined FDM Group as a consultant.  Later I joined IHS Markit, which then merged S&P Global, who then formed a joint venture with CME Group called Osttra, which is where I am today.",
+      "description": "👋 I'm Ian Agpawa, a software engineer.  I received my Bachelors in Psychology from CUNY Hunter College where I co-authored a study in error-detection rates during proofreading. I then went on to receive my Masters from Teachers College at Columbia University where I focused on developmental psychopathology and posttraumatic growth, while working at a clinical services company that provided services to intellectually disabled individuals throughout the New York City area. I left the field in 2018 to pursue my passion for programming and joined a consulting company, working in financial services for several years, where I designed and developed frontend Angular and React web applications on a platform that focused on a unified experience for various post-trade event workflows. ",
       "section_name": {
         "about": "A little about me",
         "projects": "Selected Personal Projects",
@@ -155,7 +155,7 @@
     ],
     "experience": [
       {
-        "company": "Osttra",
+        "company": "OSTTRA",
         "title": "Senior Software Engineer",
         "years": "09.2021 - present",
         "mainTech": [
